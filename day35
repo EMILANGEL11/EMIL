@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const names = ["Emil", "Sajan", "Dilo", "maju"];
+      console.log(names[0]);
+      console.log(names[1]);
+      console.log(names[2]);
+      console.log(names[3]);
+      console.log(names[4]);
+      console.log("");
+      for (let i = 0; i < names.length; i++) {
+        console.log(names[i]);
+      }
+      console.log("");
+      let x = 0;
+      while (x < names.length) {
+        console.log(names[x]);
+        x++;
+      }
+      console.log("");
+      var mayu = "abcdef";
+      console.log(emil.charAt(2));
+      console.log(emil.charCodeAt(2));
+    </script>
+
+    <script>
+      console.log("");
+      const name = ["Emil", "Sajan", "Dilo", "maju"];
+      for (let i = 0; i < name.length; i++) {
+        console.log(name[i]);
+        if (i == 2) {
+            console.log("i reached 2")
+          break;  
+        }
+      }
+    </script>
+    <script>
+    const Names2=[];
+    Names2.push(1);
+    Names2.push(2);
+    console.log(Names2.length);
+    for (let i=0; i<Names1.length; i++){
+Names2.push(Names1[i]);
+    }
+    console.log(Names2.length);
+</script>
+  </body>
+</html>
