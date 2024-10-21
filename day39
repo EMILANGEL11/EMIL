@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day-39</title>
+</head>
+<body>
+    <h1 id = "emil"></h1>
+    <h1 id = "emil1"></h1>
+    <h1 id = "emil2"></h1>
+    <h1 id = "emil3"></h1>
+    <h1 id = "emil4"></h1>
+    <h1 id = "emil5"></h1>
+
+
+    <script>
+const names = new Object();
+
+names.fname = "emil";
+names.lname = "AE";
+document.getElementById("emil").innerHTML=names.fname;
+document.getElementById("emil1").innerHTML=names.fname;
+document.getElementById("emil2").innerHTML=names.fname;
+document.getElementById("emil3").innerHTML=names.fname;
+document.getElementById("emil4").innerHTML=names.fname;
+document.getElementById("emil5").innerHTML=names.fname;
+
+
+
+
+
+</script>
+
+<script>
+    function Person(first, last, age, eye) {
+      this.firstName = first;
+      this.lastName = last;
+      this.age = age;
+      this.eyeColor = eye;
+    }
+    
+    const myFather = new Person("John", "Doe", 50, "blue");
+    const myMother = new Person("Sally", "Rally", 48, "green");
+    const myself = new Person("mathu","ks",21,"black");
+    
+    document.getElementById("mathu").innerHTML =
+    "My father is " + myFather.age + ". My mother is " + myMother.age; 
+    document.write(myself.age);
+    </script>
+
+<p id="demo1"></p>
+
+<script>
+// Create Target Object
+const person1 = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+// Create Source Object
+const person2 = {firstName: "Anne",lastName: "Smith"};
+
+// Assign Source to Target
+Object.assign(person1, person2);
+
+// Display Target
+//let text = Object.entries(person1);
+document.getElementById("demo1").innerHTML = person2.age;
+</script>
+
+<button onclick="addition(5,5)">click me</button>
+
+<script>
+
+
+
+function addition( a, b){
+    let result =a+b;
+    alert("iam from function : " + result);
+
+}
+
+</script>
+
+</body>
+</html>
+
+
+  
